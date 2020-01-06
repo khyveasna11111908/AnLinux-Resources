@@ -4,7 +4,7 @@ echo "Changing some permissions, please be patient"
 echo ""
 echo ""
 
-chmod 755 -R /bin /home /mnt /run /srv /tmp /var /boot /etc /lin /opt /root /sbin /sys /usr
+chmod 755 -R /bin /home /mnt /run /srv /tmp /var /boot /etc /lib /opt /root /sbin /sys /usr
 systemctl disable systemd-resolved.service
 rm /etc/resolv.conf
 mv resolv.conf /etc
